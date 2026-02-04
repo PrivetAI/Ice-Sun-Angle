@@ -62,13 +62,14 @@ struct TabBarItem: View {
         }
     }
     
+    @ViewBuilder
     private var tabIcon: some View {
         switch tab {
-        case .home: return CustomIcon.home
-        case .graph: return CustomIcon.chart
-        case .recommendations: return CustomIcon.clock
-        case .compare: return CustomIcon.compare
-        case .help: return CustomIcon.info
+        case .home: CustomIcon.home
+        case .graph: CustomIcon.chart
+        case .recommendations: CustomIcon.clock
+        case .compare: CustomIcon.compare
+        case .help: CustomIcon.info
         }
     }
 }

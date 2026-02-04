@@ -66,24 +66,24 @@ struct TimeWindowCard: View {
         }
     }
     
+    @ViewBuilder
     private var qualityIcon: some View {
         switch window.quality {
-        case .excellent: return CustomIcon.sunLow
-        case .okay: return CustomIcon.sunMedium
-        case .poor: return CustomIcon.sunHigh
+        case .excellent: CustomIcon.sunLow
+        case .okay: CustomIcon.sunMedium
+        case .poor: CustomIcon.sunHigh
         }
     }
     
+    @ViewBuilder
     private var cardBackground: some View {
-        Group {
-            switch window.quality {
-            case .excellent:
-                Color(hex: "F0FDF4")
-            case .okay:
-                Color(hex: "FEFCE8")
-            case .poor:
-                Color(hex: "FEF2F2")
-            }
+        switch window.quality {
+        case .excellent:
+            Color(hex: "F0FDF4")
+        case .okay:
+            Color(hex: "FEFCE8")
+        case .poor:
+            Color(hex: "FEF2F2")
         }
     }
 }
