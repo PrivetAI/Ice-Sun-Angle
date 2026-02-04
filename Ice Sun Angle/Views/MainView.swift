@@ -25,11 +25,10 @@ struct MainView: View {
                     selectedTab = .graph
                 }
                 .padding(.top, 8)
-                
-                Spacer(minLength: 100)
             }
             .padding(.horizontal, 20)
             .padding(.top, 16)
+            .padding(.bottom, 20)
         }
         .background(Color(hex: "FAFAFA"))
     }

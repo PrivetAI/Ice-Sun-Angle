@@ -14,16 +14,15 @@ struct ContentView: View {
     }
     
     var body: some View {
-        ZStack(alignment: .bottom) {
-            // Main content
-            VStack(spacing: 0) {
-                tabContent
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-            }
+        VStack(spacing: 0) {
+            // Main content with bottom padding for tab bar
+            tabContent
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
             
             // Custom tab bar
             CustomTabBar(selectedTab: $selectedTab)
         }
+        .background(Color(hex: "FAFAFA"))
         .ignoresSafeArea(.keyboard)
         .onChange(of: selectedRegion) { newValue in
             UserDefaults.standard.set(newValue.rawValue, forKey: "selectedRegion")

@@ -23,11 +23,10 @@ struct SunGraphView: View {
                     // Quick windows preview
                     quickWindowsSection
                 }
-                
-                Spacer(minLength: 100)
             }
             .padding(.horizontal, 20)
             .padding(.top, 16)
+            .padding(.bottom, 20)
         }
         .background(Color(hex: "FAFAFA"))
         .onAppear {

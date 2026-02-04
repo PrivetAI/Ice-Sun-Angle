@@ -18,11 +18,10 @@ struct RecommendationsView: View {
                 
                 // Windows list
                 windowsList
-                
-                Spacer(minLength: 100)
             }
             .padding(.horizontal, 20)
             .padding(.top, 16)
+            .padding(.bottom, 20)
         }
         .background(Color(hex: "FAFAFA"))
         .onAppear {
