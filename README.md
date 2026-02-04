@@ -1,10 +1,10 @@
-# Ice Sun Angle - App Store Content
+# Fishing Sun Angle - App Store Content
 
 ## Subtitle
 Find optimal ice fishing times using sun position
 
 ## Description
-Ice Sun Angle revolutionizes ice fishing strategy by leveraging the science of solar positioning. Based on proven fishing principles, this app calculates and displays the sun's angle throughout the day, helping you identify the "golden windows" when fish are most actively feeding.
+Fishing Sun Angle revolutionizes ice fishing strategy by leveraging the science of solar positioning. Based on proven fishing principles, this app calculates and displays the sun's angle throughout the day, helping you identify the "golden windows" when fish are most actively feeding.
 
 **Key Features:**
 • Visual sun angle graph with color-coded fishing zones
@@ -25,10 +25,10 @@ Fish behavior is significantly influenced by light penetration and sun position.
 - Understanding when fish are most active
 - Maximizing limited fishing time
 
-Let science guide your ice fishing success. Ice Sun Angle turns astronomical data into actionable fishing intelligence.
+Let science guide your ice fishing success. Fishing Sun Angle turns astronomical data into actionable fishing intelligence.
 
 ## Promotional Text
-Unlock the secret to consistent ice fishing success! Ice Sun Angle combines solar positioning science with fishing expertise to show you exactly when fish will be most active. See daily golden windows, compare multiple days, and plan trips with confidence. No guesswork, just proven solar science.
+Unlock the secret to consistent ice fishing success! Fishing Sun Angle combines solar positioning science with fishing expertise to show you exactly when fish will be most active. See daily golden windows, compare multiple days, and plan trips with confidence. No guesswork, just proven solar science.
 
 ## Keywords
 ice fishing, sun angle, fishing times, fishing calculator, best fishing times, ice fishing app, solar position, fishing science, winter fishing, fishing planner, ice angling, fishing strategy, fishing forecast, outdoor apps, fishing tools

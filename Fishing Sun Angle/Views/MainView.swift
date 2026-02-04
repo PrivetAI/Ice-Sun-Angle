@@ -40,7 +40,7 @@ struct MainView: View {
                     .frame(width: 32, height: 32)
                     .foregroundColor(Color(hex: "FF6B35"))
                 
-                Text("Ice Sun Angle")
+                Text("Fishing Sun Angle")
                     .font(.system(size: 24, weight: .bold))
                     .foregroundColor(Color(hex: "1F2937"))
             }

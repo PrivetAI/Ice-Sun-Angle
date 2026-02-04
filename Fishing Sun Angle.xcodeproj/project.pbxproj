@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10001 /* Ice_Sun_AngleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001 /* Ice_Sun_AngleApp.swift */; };
+		A10001 /* Fishing_Sun_AngleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001 /* Fishing_Sun_AngleApp.swift */; };
 		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* ContentView.swift */; };
 		A10003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20003 /* Assets.xcassets */; };
 		A10004 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20004 /* Region.swift */; };
@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A20001 /* Ice_Sun_AngleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ice_Sun_AngleApp.swift; sourceTree = "<group>"; };
+		A20001 /* Fishing_Sun_AngleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishing_Sun_AngleApp.swift; sourceTree = "<group>"; };
 		A20002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A20003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20004 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		A20016 /* SunAngleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunAngleChart.swift; sourceTree = "<group>"; };
 		A20017 /* TimeWindowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWindowCard.swift; sourceTree = "<group>"; };
 		A20018 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-		A30001 /* Ice Sun Angle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ice Sun Angle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30001 /* Fishing Sun Angle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fishing Sun Angle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +63,15 @@
 		A50001 = {
 			isa = PBXGroup;
 			children = (
-				A50002 /* Ice Sun Angle */,
+				A50002 /* Fishing Sun Angle */,
 				A50003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A50002 /* Ice Sun Angle */ = {
+		A50002 /* Fishing Sun Angle */ = {
 			isa = PBXGroup;
 			children = (
-				A20001 /* Ice_Sun_AngleApp.swift */,
+				A20001 /* Fishing_Sun_AngleApp.swift */,
 				A20002 /* ContentView.swift */,
 				A50004 /* Models */,
 				A50005 /* Utils */,
@@ -79,13 +79,13 @@
 				A50007 /* Components */,
 				A20003 /* Assets.xcassets */,
 			);
-			path = "Ice Sun Angle";
+			path = "Fishing Sun Angle";
 			sourceTree = "<group>";
 		};
 		A50003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A30001 /* Ice Sun Angle.app */,
+				A30001 /* Fishing Sun Angle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A60001 /* Ice Sun Angle */ = {
+		A60001 /* Fishing Sun Angle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A70001 /* Build configuration list for PBXNativeTarget "Ice Sun Angle" */;
+			buildConfigurationList = A70001 /* Build configuration list for PBXNativeTarget "Fishing Sun Angle" */;
 			buildPhases = (
 				A60002 /* Sources */,
 				A40001 /* Frameworks */,
@@ -148,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = "Ice Sun Angle";
-			productName = "Ice Sun Angle";
-			productReference = A30001 /* Ice Sun Angle.app */;
+			name = "Fishing Sun Angle";
+			productName = "Fishing Sun Angle";
+			productReference = A30001 /* Fishing Sun Angle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A70002 /* Build configuration list for PBXProject "Ice Sun Angle" */;
+			buildConfigurationList = A70002 /* Build configuration list for PBXProject "Fishing Sun Angle" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -181,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A60001 /* Ice Sun Angle */,
+				A60001 /* Fishing Sun Angle */,
 			);
 		};
 /* End PBXProject section */
@@ -202,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10001 /* Ice_Sun_AngleApp.swift in Sources */,
+				A10001 /* Fishing_Sun_AngleApp.swift in Sources */,
 				A10002 /* ContentView.swift in Sources */,
 				A10004 /* Region.swift in Sources */,
 				A10005 /* SunData.swift in Sources */,
@@ -348,7 +348,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ice Sun Angle";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fishing Sun Angle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -380,7 +380,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ice Sun Angle";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fishing Sun Angle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -406,7 +406,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A70001 /* Build configuration list for PBXNativeTarget "Ice Sun Angle" */ = {
+		A70001 /* Build configuration list for PBXNativeTarget "Fishing Sun Angle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A90003 /* Debug */,
@@ -415,7 +415,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A70002 /* Build configuration list for PBXProject "Ice Sun Angle" */ = {
+		A70002 /* Build configuration list for PBXProject "Fishing Sun Angle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A90001 /* Debug */,
