@@ -11,8 +11,8 @@ workflows:
         bundle_identifier: com.lachlanstormer.fishing-sun-angle
       vars:
         BUNDLE_ID: "com.lachlanstormer.fishing-sun-angle"
-        XCODE_WORKSPACE: "FishingSunAngle.xcodeproj"
-        XCODE_SCHEME: "FishingSunAngle"
+        XCODE_WORKSPACE: "Fishing Sun Angle.xcodeproj"
+        XCODE_SCHEME: "Fishing Sun Angle"
         APP_STORE_APPLE_ID: 6758855028
       xcode: latest 
       cocoapods: default
