@@ -11,7 +11,7 @@ struct Fishing_Sun_AngleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StageResultView()
                 .preferredColorScheme(.light)
         }
     }
